@@ -1,0 +1,5 @@
+component,model,accuracy,precision,recall,f1,roc_auc
+Tabular,XGBoost,0.9649122807017544,1.0,0.9047619047619048,0.95,0.9950396825396826
+Imaging,ResNet18 (frozen backbone),0.6666666666666666,0.6623561294436474,0.7162267839687194,0.6593487492507324,
+Fusion (illustrative demo),Weighted late-fusion,0.9933333333333333,1.0,0.9866666666666667,0.9932885906040269,1.0
+Fusion (illustrative demo),Stacked meta-classifier,1.0,1.0,1.0,1.0,1.0
